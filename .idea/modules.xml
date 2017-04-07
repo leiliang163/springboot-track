@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-api.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-api.iml" group="springboot-track-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-api/springboot-track-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-api/springboot-track-api_main.iml" group="springboot-track-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-api/springboot-track-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-api/springboot-track-api_test.iml" group="springboot-track-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-biz.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-biz.iml" group="springboot-track-biz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-biz/springboot-track-biz_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-biz/springboot-track-biz_main.iml" group="springboot-track-biz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-biz/springboot-track-biz_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-biz/springboot-track-biz_test.iml" group="springboot-track-biz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-common.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-common.iml" group="springboot-track-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-common/springboot-track-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-common/springboot-track-common_main.iml" group="springboot-track-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-common/springboot-track-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-common/springboot-track-common_test.iml" group="springboot-track-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-web.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-web.iml" group="springboot-track-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-web/springboot-track-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-web/springboot-track-web_main.iml" group="springboot-track-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track-web/springboot-track-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track-web/springboot-track-web_test.iml" group="springboot-track-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track_main.iml" group="springboot-track" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-track_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-track_test.iml" group="springboot-track" />
+    </modules>
+  </component>
+</project>

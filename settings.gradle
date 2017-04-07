@@ -1,0 +1,6 @@
+rootProject.name = 'springboot-track'
+include 'springboot-track-api'
+include 'springboot-track-web'
+include 'springboot-track-biz'
+include 'springboot-track-common'
+
