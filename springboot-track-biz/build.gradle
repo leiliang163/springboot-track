@@ -1,14 +1,59 @@
-group 'com.mjoys'
-version '1.0-SNAPSHOT'
+description = 'springboot-track-biz'
 
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // 工程依赖
+    compile project(':springboot-track-api')
+    compile project(':springboot-track-common')
+
+    //redis
+    compile('org.springframework.data:spring-data-redis:1.5.0.RELEASE')
+    compile('redis.clients:jedis')
+    compile('javax.servlet:javax.servlet-api')
+    compile('com.fasterxml.jackson.core:jackson-databind')
+    compile ('commons-codec:commons-codec')
+
+    // memcache
+    compile('com.googlecode.xmemcached:xmemcached')
+    compile('com.google.code.simple-spring-memcached:spymemcached')
+
+    // mybatis
+    compile('org.hibernate:hibernate-validator')
+    compile('org.mybatis:mybatis')
+    compile('org.mybatis:mybatis-spring')
+    compile('mysql:mysql-connector-java')
+
+    // spring
+    compile('org.springframework:spring-context')
+    compile('org.springframework:spring-context-support')
+    compile('org.springframework:spring-orm')
+    compile('org.springframework:spring-beans')
+    compile('org.springframework:spring-core')
+    compile('org.springframework:spring-web')
+
+    compile('commons-dbcp:commons-dbcp')
+    compile('commons-io:commons-io')
+    compile('org.apache.commons:commons-collections4')
+
+
+    compile('cglib:cglib')
+    compile('com.google.guava:guava')
+    // dubbo
+    compile('com.alibaba:dubbo')
+    compile("com.101tec:zkclient")
+    compile('com.alibaba.rocketmq:rocketmq-client')
+    compile('joda-time:joda-time')
+    testCompile('org.springframework:spring-test')
+
+
+    // swagger api文档自动生成工具
+    compile("io.springfox:springfox-swagger-ui")
+    compile("io.springfox:springfox-swagger2")
+
+    // kafka
+    compile('org.apache.kafka:kafka-clients')
+    compile('org.apache.httpcomponents:httpclient')
+
 }
+
+

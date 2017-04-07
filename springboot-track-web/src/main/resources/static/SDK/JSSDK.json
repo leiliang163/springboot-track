@@ -1,0 +1,17 @@
+{
+  "code": "0",
+  "desc": "成功",
+  "data": {
+    "SDKName": "JS",
+    "userGuide": "//www.zybuluo.com/Zack1993/note/558573",
+    "history": [{
+      "version": "V1.3.5",
+      "releaseTime": "2017-01-17",
+      "content": [
+        "丰富标准样式选择：横幅、插屏、开屏、信息流、浮标、banner、应用墙、自定义",
+        "独创交互式广告体验，更高收益",
+        "支持用户行为数据记录，用于提升广告投放准确性和稳定性"
+      ]
+    }]
+  }
+}

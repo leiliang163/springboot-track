@@ -1,0 +1,7 @@
+尊敬的 ${linkman}：<br><br>
+您在推啊媒体平台（<a href='http://ssp.tuia.cn'>http://ssp.tuia.cn</a>）申请重置密码验证码:<br>
+	<b>${verificationCode}</b><br>
+（该验证码在30分钟内有效，30分钟后需要重新发送验证邮件）<br><br><br>
+
+<hr>
+推啊媒体平台

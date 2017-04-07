@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.lei.liang.test.dao.impl.TestDaoImpl">
+
+    <!-- 查询信息 -->
+    <select id="selectById" resultType="com.lei.liang.test.dto.TestDto"
+            parameterType="java.lang.Long">
+		SELECT
+		id,
+		name,
+		age,
+		gmt_create,
+		gmt_modified
+		FROM ads.test
+		WHERE
+		id = #{id}
+	</select>
+
+
+    <!-- 新建 -->
+    <insert id="insert" parameterType="com.lei.liang.test.dto.TestDto"
+            useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		ads.test
+		(
+		name,
+		age)
+		VALUES
+		(
+		#{name},
+		#{age}
+		)
+	</insert>
+
+    <!-- 更新 -->
+    <update id="update" parameterType="com.lei.liang.test.dto.TestDto">
+        UPDATE
+        ads.test SET
+        <if test="name !=null and name !=''">
+            ,name=#{name}
+        </if>
+        <if test="age !=null">
+            ,age=#{age}
+        </if>
+        WHERE
+        id=#{id}
+    </update>
+
+
+</mapper>

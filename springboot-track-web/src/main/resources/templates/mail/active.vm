@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>验证您的推啊媒体平台邮箱</title>
+<link href="http://yun.duiba.com.cn/assets/styles/email.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div class="main">
+	<h2></h2>
+	<div>
+		<h3>尊敬的 ${linkman}：</h3>
+		欢迎您使用推啊媒体平台（http://ssp.tuia.cn）。<br />
+		您的登录邮箱是 ${email}。请点击以下链接验证邮箱有效性，验证成功可以加速账户资质审核。
+		<br />
+		
+		<a href="${url}">${url}</a><br />
+		
+		<br />
+		如果以上链接如果无法点击，请将地址复制到浏览器地址栏打开。（该链接在48小时内有效，48小时候需要重新发送验证邮件）
+		<br />
+		
+       	 此为系统邮件，请勿回复
+	</div>
+	<hr>
+	<div>推啊媒体平台</div>
+</div>
+</body>
+
+</html>  

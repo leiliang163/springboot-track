@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba:dubbo:2.5.4.2.dbfix">
+    <CLASSES>
+      <root url="jar://D:/tool/gradle-2.14/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.4.2.dbfix/6c84f3445ec9debfada795a152b360d9214f42cf/dubbo-2.5.4.2.dbfix.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/tool/gradle-2.14/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.4.2.dbfix/ee37bb7d56d838f1401f6b870c0a73f428e8c813/dubbo-2.5.4.2.dbfix-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

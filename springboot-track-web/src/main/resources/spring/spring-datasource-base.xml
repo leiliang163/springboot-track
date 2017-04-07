@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="dataSourceParent" class="org.apache.commons.dbcp2.BasicDataSource"
+		destroy-method="close" abstract="true">
+		<!-- 所使用的JDBC驱动的类全名 -->
+		<property name="driverClassName" value="${media.datasource.driver}" />
+		<!-- 可以在这个池中同时被分配的有效连接数的最大值，如设置为负数，则不限制 -->
+		<property name="maxTotal" value="50" />
+		<!-- 当这个池被启动时初始化的创建的连接个数 -->
+		<property name="initialSize" value="5" />
+		<!-- 可以在池中保持空闲的最大连接数，超出设置值之外的空闲连接将被回收，如设置为负数，则不限制 -->
+		<property name="maxIdle" value="20" />
+		<!-- 可以在池中保持空闲的最小连接数，超出设置值之外的空闲连接将被创建，如设置为0，则不创建 -->
+		<property name="minIdle" value="${media.datasource.media.minIdle}" />
+		<!-- （如果没有可用连接）池在抛出异常前等待的一个连接被归还的最大毫秒数，设置为-1则等待时间不确定 -->
+		<property name="maxWaitMillis" value="30000" />
+		<!-- 如果设置为true，则一个连接在超过removeAbandonedTimeout所设定的时间未使用即被认为是应该被抛弃并应该被移除的。 -->
+		<property name="removeAbandonedOnBorrow" value="true" />
+		<!-- 一个被抛弃连接可以被移除的超时时间，单位为秒 -->
+		<property name="removeAbandonedTimeout" value="60" />
+		<!-- 标志是否为应用程序中遗弃语句或连接的代码开启日志堆栈追踪。 -->
+		<property name="logAbandoned" value="true" />
+		<!-- 连接借出之前是否检查有效性 -->
+		<property name="testOnBorrow" value="false" />
+		<!-- 多久testWhileIdle一次 -->
+		<property name="timeBetweenEvictionRunsMillis" value="90000" />
+		<!-- 池中的连接空闲多久后被回收,默认值就是30分钟。 -->
+		<property name="minEvictableIdleTimeMillis" value="600000" />
+		<!-- 检查有效性的sql -->
+		<property name="validationQuery" value="SELECT 1" />
+		<!-- 指明对象是否需要通过对象驱逐者进行校验（如果有的话），假如一个对象验证失败，则对象将被从池中释放。 -->
+		<property name="testWhileIdle" value="true" />
+	</bean>
+
+</beans>

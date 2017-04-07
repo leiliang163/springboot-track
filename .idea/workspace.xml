@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14333120-e956-4a20-88b3-1466eca69d84" name="Default" comment="" />
+    <list default="true" id="14333120-e956-4a20-88b3-1466eca69d84" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-api/src/main/java/com/mjoys/springboot/track/api/model/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-api/src/main/java/com/mjoys/springboot/track/api/model/ResultPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/OperateLogDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/TestDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/DaoExceptionOpe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/OperateLogDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/TestDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dto/BaseDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dto/OperateLogDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dto/TestDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/req/ReqAddTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/TestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/impl/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/impl/TestServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/AjaxUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/Base58.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/BlowfishUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/CookieUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/JsonUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/RequestLocalUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/RequestUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/SecureUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/SmsUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/StringTool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/TimeProfileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/constants/CommonConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/constants/ErrorCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/constants/TimeFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/exception/InnerException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/utils/ResultUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/aop/LogWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/aop/OperationLogAOP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/BaseController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/FreemarkerTestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/TestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/CsrfFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/LoginInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/account/operatelog.mapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/account/test.mapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/spring/spring-datasource-base.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/spring/spring-datasource-media.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/spring/spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/static/SDK/AndroidSDK.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/static/SDK/IOSSDK.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/static/SDK/JSSDK.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/static/private" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/error.html.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/error.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/hello.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/hello.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/index.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/layouts/hello1.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/layouts/layout.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/mail/active.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/mail/checkStatus.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/mail/hello.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/mail/replaceEmail.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/templates/mail/resetpasswd.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-track-web/src/main/resources/tuia-media.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-track-api/build.gradle" afterPath="$PROJECT_DIR$/springboot-track-api/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-track-biz/build.gradle" afterPath="$PROJECT_DIR$/springboot-track-biz/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-track-common/build.gradle" afterPath="$PROJECT_DIR$/springboot-track-common/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-track-web/build.gradle" afterPath="$PROJECT_DIR$/springboot-track-web/build.gradle" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,47 +99,132 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="springboot-track" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-track-api/build.gradle">
+      <file leaf-file-name="RequestUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/RequestUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="319">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecureUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/SecureUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-track-web/build.gradle">
+      <file leaf-file-name="LogWrite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/aop/LogWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="191">
+              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-track-biz/build.gradle">
+      <file leaf-file-name="OperationLogAOP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/aop/OperationLogAOP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-266">
+              <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FreemarkerTestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/FreemarkerTestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-track-common/build.gradle">
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="56" column="45" lean-forward="false" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsrfFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/CsrfFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/LoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-987">
+              <caret line="137" column="67" lean-forward="false" selection-start-line="137" selection-start-column="67" selection-end-line="137" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -88,38 +243,61 @@
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="eclipse" type="org.gradle.plugins.ide.eclipse.model.EclipseModel" />
+            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'springboot-track'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="wrapper" type="org.gradle.api.tasks.wrapper.Wrapper">Generates Gradle wrapper files. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="run" type="org.gradle.api.tasks.JavaExec">Runs this project as a JVM application&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
+            <task name="sourcesJar" type="org.gradle.api.tasks.bundling.Jar">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="startScripts" type="org.gradle.api.tasks.application.CreateStartScripts">Creates OS specific scripts to run the project as a JVM application.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="eclipseClasspath" type="org.gradle.plugins.ide.eclipse.GenerateEclipseClasspath">Generates the Eclipse classpath file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of root project 'springboot-track'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from root project 'springboot-track' (some of the displayed tasks may belong to subprojects).&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="assembleDist">Assembles the main distributions&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
+            <task name="init" type="org.gradle.buildinit.tasks.InitBuild">Initializes a new Gradle build. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="dependencyManagement" type="io.spring.gradle.dependencymanagement.report.DependencyManagementReportTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="bootRepackage" type="org.springframework.boot.gradle.repackage.RepackageTask">Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="installApp" type="org.gradle.api.tasks.Sync">Installs the project as a JVM application along with libs and OS specific scripts.&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
+            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in root project 'springboot-track'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipse">Generates all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="eclipseJdt" type="org.gradle.plugins.ide.eclipse.GenerateEclipseJdt">Generates the Eclipse JDT settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="install" type="org.gradle.api.tasks.Upload">Installs the 'archives' artifacts into the local Maven repository.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="eclipseProject" type="org.gradle.plugins.ide.eclipse.GenerateEclipseProject">Generates the Eclipse project file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="distTar" type="org.gradle.api.tasks.bundling.Tar">Bundles the project as a distribution.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
+            <task name="ideaProject" type="org.gradle.plugins.ide.idea.GenerateIdeaProject">Generates IDEA project file (IPR)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="distZip" type="org.gradle.api.tasks.bundling.Zip">Bundles the project as a distribution.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by root project 'springboot-track'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'springboot-track'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseClasspath" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanEclipse">Cleans all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="listJars">Display all compile jars.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in root project 'springboot-track'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="wrapper" type="org.gradle.api.tasks.wrapper.Wrapper">Generates Gradle wrapper files. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="cleanEclipseProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
-            <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of root project 'springboot-track'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from root project 'springboot-track' (some of the displayed tasks may belong to subprojects).&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="init" type="org.gradle.buildinit.tasks.InitBuild">Initializes a new Gradle build. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="installDist" type="org.gradle.api.tasks.Sync">Installs the project as a distribution as-is.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
+            <task name="cleanEclipseJdt" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="ideaWorkspace" type="org.gradle.plugins.ide.idea.GenerateIdeaWorkspace">Generates an IDEA workspace file (IWS)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
-            <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="bootRun" type="org.springframework.boot.gradle.run.BootRunTask">Run the project with support for auto-detecting main class and reloading static resources&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
             <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in root project 'springboot-track'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
             <task name="assemble">Assembles the outputs of this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in root project 'springboot-track'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="ideaProject" type="org.gradle.plugins.ide.idea.GenerateIdeaProject">Generates IDEA project file (IPR)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="findMainClass" type="org.springframework.boot.gradle.run.FindMainClassTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of root project 'springboot-track'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="cleanIdeaWorkspace" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <conf name="archives">Configuration for archive artifacts.</conf>
@@ -140,22 +318,32 @@
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="eclipse" type="org.gradle.plugins.ide.eclipse.model.EclipseModel" />
+            <ext name="dependencyManagement" type="io.spring.gradle.dependencymanagement.DependencyManagementExtension" />
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by project ':springboot-track-api'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="cleanEclipseClasspath" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':springboot-track-api'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipse">Cleans all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="listJars">Display all compile jars.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in project ':springboot-track-api'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="sourcesJar" type="org.gradle.api.tasks.bundling.Jar">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
+            <task name="eclipseClasspath" type="org.gradle.plugins.ide.eclipse.GenerateEclipseClasspath">Generates the Eclipse classpath file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of project ':springboot-track-api'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from project ':springboot-track-api'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseJdt" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="dependencyManagement" type="io.spring.gradle.dependencymanagement.report.DependencyManagementReportTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in project ':springboot-track-api'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
@@ -163,10 +351,14 @@
             <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in project ':springboot-track-api'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipse">Generates all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipseJdt" type="org.gradle.plugins.ide.eclipse.GenerateEclipseJdt">Generates the Eclipse JDT settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="install" type="org.gradle.api.tasks.Upload">Installs the 'archives' artifacts into the local Maven repository.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="eclipseProject" type="org.gradle.plugins.ide.eclipse.GenerateEclipseProject">Generates the Eclipse project file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of project ':springboot-track-api'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <conf name="archives">Configuration for archive artifacts.</conf>
             <conf name="compile" visible="false">Dependencies for source set 'main'.</conf>
@@ -186,22 +378,32 @@
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="eclipse" type="org.gradle.plugins.ide.eclipse.model.EclipseModel" />
+            <ext name="dependencyManagement" type="io.spring.gradle.dependencymanagement.DependencyManagementExtension" />
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by project ':springboot-track-biz'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="cleanEclipseClasspath" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':springboot-track-biz'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipse">Cleans all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="listJars">Display all compile jars.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in project ':springboot-track-biz'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="sourcesJar" type="org.gradle.api.tasks.bundling.Jar">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
+            <task name="eclipseClasspath" type="org.gradle.plugins.ide.eclipse.GenerateEclipseClasspath">Generates the Eclipse classpath file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of project ':springboot-track-biz'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from project ':springboot-track-biz'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseJdt" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="dependencyManagement" type="io.spring.gradle.dependencymanagement.report.DependencyManagementReportTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in project ':springboot-track-biz'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
@@ -209,10 +411,14 @@
             <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in project ':springboot-track-biz'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipse">Generates all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipseJdt" type="org.gradle.plugins.ide.eclipse.GenerateEclipseJdt">Generates the Eclipse JDT settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="install" type="org.gradle.api.tasks.Upload">Installs the 'archives' artifacts into the local Maven repository.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="eclipseProject" type="org.gradle.plugins.ide.eclipse.GenerateEclipseProject">Generates the Eclipse project file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of project ':springboot-track-biz'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <conf name="archives">Configuration for archive artifacts.</conf>
             <conf name="compile" visible="false">Dependencies for source set 'main'.</conf>
@@ -232,22 +438,32 @@
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="eclipse" type="org.gradle.plugins.ide.eclipse.model.EclipseModel" />
+            <ext name="dependencyManagement" type="io.spring.gradle.dependencymanagement.DependencyManagementExtension" />
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by project ':springboot-track-common'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="cleanEclipseClasspath" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':springboot-track-common'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipse">Cleans all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="listJars">Display all compile jars.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in project ':springboot-track-common'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="sourcesJar" type="org.gradle.api.tasks.bundling.Jar">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
+            <task name="eclipseClasspath" type="org.gradle.plugins.ide.eclipse.GenerateEclipseClasspath">Generates the Eclipse classpath file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of project ':springboot-track-common'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from project ':springboot-track-common'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseJdt" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="dependencyManagement" type="io.spring.gradle.dependencymanagement.report.DependencyManagementReportTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in project ':springboot-track-common'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
@@ -255,10 +471,14 @@
             <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in project ':springboot-track-common'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipse">Generates all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipseJdt" type="org.gradle.plugins.ide.eclipse.GenerateEclipseJdt">Generates the Eclipse JDT settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="install" type="org.gradle.api.tasks.Upload">Installs the 'archives' artifacts into the local Maven repository.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="eclipseProject" type="org.gradle.plugins.ide.eclipse.GenerateEclipseProject">Generates the Eclipse project file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of project ':springboot-track-common'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <conf name="archives">Configuration for archive artifacts.</conf>
             <conf name="compile" visible="false">Dependencies for source set 'main'.</conf>
@@ -278,33 +498,60 @@
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="eclipse" type="org.gradle.plugins.ide.eclipse.model.EclipseModel" />
+            <ext name="dependencyManagement" type="io.spring.gradle.dependencymanagement.DependencyManagementExtension" />
+            <ext name="springBoot" type="org.springframework.boot.gradle.SpringBootPluginExtension" />
+            <ext name="distributions" type="org.gradle.api.distribution.internal.DefaultDistributionContainer" objectType="org.gradle.api.distribution.internal.DefaultDistribution" />
+            <prop name="BootRepackage" type="java.lang.Class" />
+            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="run" type="org.gradle.api.tasks.JavaExec">Runs this project as a JVM application&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
+            <task name="sourcesJar" type="org.gradle.api.tasks.bundling.Jar">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="startScripts" type="org.gradle.api.tasks.application.CreateStartScripts">Creates OS specific scripts to run the project as a JVM application.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="eclipseClasspath" type="org.gradle.plugins.ide.eclipse.GenerateEclipseClasspath">Generates the Eclipse classpath file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of project ':springboot-track-web'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="assembleDist">Assembles the main distributions&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
+            <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="dependencyManagement" type="io.spring.gradle.dependencymanagement.report.DependencyManagementReportTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="bootRepackage" type="org.springframework.boot.gradle.repackage.RepackageTask">Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="installApp" type="org.gradle.api.tasks.Sync">Installs the project as a JVM application along with libs and OS specific scripts.&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
+            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="eclipse">Generates all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="eclipseJdt" type="org.gradle.plugins.ide.eclipse.GenerateEclipseJdt">Generates the Eclipse JDT settings file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="install" type="org.gradle.api.tasks.Upload">Installs the 'archives' artifacts into the local Maven repository.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="eclipseProject" type="org.gradle.plugins.ide.eclipse.GenerateEclipseProject">Generates the Eclipse project file.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="distTar" type="org.gradle.api.tasks.bundling.Tar">Bundles the project as a distribution.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
+            <task name="distZip" type="org.gradle.api.tasks.bundling.Zip">Bundles the project as a distribution.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by project ':springboot-track-web'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseClasspath" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanEclipse">Cleans all Eclipse files.&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
             <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="listJars">Display all compile jars.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="classes">Assembles main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanEclipseProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="testClasses">Assembles test classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="javadoc" type="org.gradle.api.tasks.javadoc.Javadoc">Generates Javadoc API documentation for the main source code.&lt;p&gt;&lt;i&gt;Task group: documentation&lt;i&gt;</task>
-            <task name="jar" type="org.gradle.api.tasks.bundling.Jar">Assembles a jar archive containing the main classes.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of project ':springboot-track-web'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="processResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes main resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="installDist" type="org.gradle.api.tasks.Sync">Installs the project as a distribution as-is.&lt;p&gt;&lt;i&gt;Task group: distribution&lt;i&gt;</task>
+            <task name="cleanEclipseJdt" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
-            <task name="test" type="org.gradle.api.tasks.testing.Test">Runs the unit tests.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
-            <task name="compileJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles main Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="bootRun" type="org.springframework.boot.gradle.run.BootRunTask">Run the project with support for auto-detecting main class and reloading static resources&lt;p&gt;&lt;i&gt;Task group: application&lt;i&gt;</task>
             <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
             <task name="assemble">Assembles the outputs of this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="compileTestJava" type="org.gradle.api.tasks.compile.JavaCompile">Compiles test Java source.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
-            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
-            <task name="processTestResources" type="org.gradle.language.jvm.tasks.ProcessResources">Processes test resources.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
-            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="findMainClass" type="org.springframework.boot.gradle.run.FindMainClassTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
             <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of project ':springboot-track-web'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <conf name="archives">Configuration for archive artifacts.</conf>
             <conf name="compile" visible="false">Dependencies for source set 'main'.</conf>
@@ -316,6 +563,7 @@
             <conf name="testCompileClasspath" visible="false">Compile classpath for source set 'test'.</conf>
             <conf name="testCompileOnly" visible="false">Compile dependencies for source set 'test'.</conf>
             <conf name="testRuntime" visible="false">Runtime dependencies for source set 'test'.</conf>
+            <conf name="versionManagement" />
             <conf name="classpath" scriptClasspath="true" />
           </extensions>
         </project>
@@ -375,29 +623,9 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'springboot-track'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'springboot-track'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'springboot-track'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Gradle wrapper files. [incubating]" />
@@ -405,14 +633,23 @@
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
+                <option name="description" value="Runs this project as a JVM application" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
+                <option name="name" value="run" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
+                <option name="name" value="sourcesJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseClasspath" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -435,6 +672,11 @@
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
@@ -445,19 +687,140 @@
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'springboot-track'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installApp" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'springboot-track'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'springboot-track'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Display all compile jars." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="listJars" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'springboot-track'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'springboot-track'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
@@ -475,16 +838,6 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'springboot-track'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -495,9 +848,8 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
+                <option name="name" value="findMainClass" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'springboot-track'." />
@@ -521,9 +873,23 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':springboot-track-api'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
                 <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Display all compile jars." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="listJars" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
@@ -536,6 +902,14 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="sourcesJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
                 <option name="name" value="testClasses" />
@@ -544,6 +918,11 @@
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
                 <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="eclipseClasspath" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -566,9 +945,17 @@
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
@@ -606,6 +993,11 @@
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
                 <option name="name" value="processTestResources" />
@@ -616,14 +1008,29 @@
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
                 <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-api" />
+                <option name="name" value="eclipseProject" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':springboot-track-api'." />
@@ -647,9 +1054,23 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':springboot-track-biz'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
                 <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Display all compile jars." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="listJars" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
@@ -662,6 +1083,14 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="sourcesJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
                 <option name="name" value="testClasses" />
@@ -670,6 +1099,11 @@
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
                 <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="eclipseClasspath" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -692,9 +1126,17 @@
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
@@ -732,6 +1174,11 @@
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
                 <option name="name" value="processTestResources" />
@@ -742,14 +1189,29 @@
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
                 <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-biz" />
+                <option name="name" value="eclipseProject" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':springboot-track-biz'." />
@@ -773,9 +1235,23 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':springboot-track-common'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
                 <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Display all compile jars." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="listJars" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
@@ -788,6 +1264,14 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="sourcesJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
                 <option name="name" value="testClasses" />
@@ -796,6 +1280,11 @@
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
                 <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="eclipseClasspath" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -818,9 +1307,17 @@
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
@@ -858,6 +1355,11 @@
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
                 <option name="name" value="processTestResources" />
@@ -868,14 +1370,29 @@
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
                 <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-common" />
+                <option name="name" value="eclipseProject" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':springboot-track-common'." />
@@ -889,39 +1406,28 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':springboot-track-web'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of project ':springboot-track-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
+                <option name="description" value="Runs this project as a JVM application" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="classes" />
+                <option name="name" value="run" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':springboot-track-web'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="buildEnvironment" />
+                <option name="name" value="sourcesJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="testClasses" />
+                <option name="name" value="startScripts" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="description" value="Generates the Eclipse classpath file." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="javadoc" />
+                <option name="name" value="eclipseClasspath" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -944,9 +1450,23 @@
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="bootRepackage" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
@@ -954,14 +1474,126 @@
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':springboot-track-web'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
                 <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="installApp" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':springboot-track-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':springboot-track-web'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Display all compile jars." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="listJars" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':springboot-track-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':springboot-track-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
@@ -979,16 +1611,6 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':springboot-track-web'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
                 <option name="name" value="help" />
@@ -999,9 +1621,8 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/springboot-track-web" />
-                <option name="name" value="buildNeeded" />
+                <option name="name" value="findMainClass" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':springboot-track-web'." />
@@ -1015,12 +1636,13 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8949359529000" />
+        <entry key="$PROJECT_DIR$" value="8949361716000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3083916561" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1305102501" />
-        <entry key="$PROJECT_DIR$/springboot-track-api/build.gradle" value="3325025383" />
-        <entry key="$PROJECT_DIR$/springboot-track-biz/build.gradle" value="3325025383" />
-        <entry key="$PROJECT_DIR$/springboot-track-common/build.gradle" value="3325025383" />
-        <entry key="$PROJECT_DIR$/springboot-track-web/build.gradle" value="3325025383" />
+        <entry key="$PROJECT_DIR$/springboot-track-api/build.gradle" value="1113812941" />
+        <entry key="$PROJECT_DIR$/springboot-track-biz/build.gradle" value="4009878579" />
+        <entry key="$PROJECT_DIR$/springboot-track-common/build.gradle" value="3015019117" />
+        <entry key="$PROJECT_DIR$/springboot-track-web/build.gradle" value="3753681337" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1033,6 +1655,14 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.5.6.RELEASE/b4833216b1cb83ec4a7476ac164843d976f28b4f/dependency-management-plugin-0.5.6.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/1.2/271e07db3be1e218accaa1e0d168b99ea40d25c9/sonarqube-gradle-plugin-1.2.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.sonar-runner/sonar-runner-api/2.5.1/896b390cdbe48b695d17f640b90679ae97112886/sonar-runner-api-2.5.1.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1040,6 +1670,14 @@
                   <entry key="$PROJECT_DIR$/springboot-track-api">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.5.6.RELEASE/b4833216b1cb83ec4a7476ac164843d976f28b4f/dependency-management-plugin-0.5.6.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/1.2/271e07db3be1e218accaa1e0d168b99ea40d25c9/sonarqube-gradle-plugin-1.2.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.sonar-runner/sonar-runner-api/2.5.1/896b390cdbe48b695d17f640b90679ae97112886/sonar-runner-api-2.5.1.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/springboot-track-api" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1047,6 +1685,14 @@
                   <entry key="$PROJECT_DIR$/springboot-track-biz">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.5.6.RELEASE/b4833216b1cb83ec4a7476ac164843d976f28b4f/dependency-management-plugin-0.5.6.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/1.2/271e07db3be1e218accaa1e0d168b99ea40d25c9/sonarqube-gradle-plugin-1.2.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.sonar-runner/sonar-runner-api/2.5.1/896b390cdbe48b695d17f640b90679ae97112886/sonar-runner-api-2.5.1.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/springboot-track-biz" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1054,6 +1700,14 @@
                   <entry key="$PROJECT_DIR$/springboot-track-common">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.5.6.RELEASE/b4833216b1cb83ec4a7476ac164843d976f28b4f/dependency-management-plugin-0.5.6.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/1.2/271e07db3be1e218accaa1e0d168b99ea40d25c9/sonarqube-gradle-plugin-1.2.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.sonar-runner/sonar-runner-api/2.5.1/896b390cdbe48b695d17f640b90679ae97112886/sonar-runner-api-2.5.1.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/springboot-track-common" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1061,6 +1715,24 @@
                   <entry key="$PROJECT_DIR$/springboot-track-web">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.5.6.RELEASE/b4833216b1cb83ec4a7476ac164843d976f28b4f/dependency-management-plugin-0.5.6.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/1.2/271e07db3be1e218accaa1e0d168b99ea40d25c9/sonarqube-gradle-plugin-1.2.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.sonarsource.sonar-runner/sonar-runner-api/2.5.1/896b390cdbe48b695d17f640b90679ae97112886/sonar-runner-api-2.5.1.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.2.2.RELEASE/23d6620adae7e2511aaba4b603b513e328255186/spring-boot-gradle-plugin-1.2.2.RELEASE-sources.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.2.2.RELEASE/d1082fd40516111f699786e8a180c33950274b45/spring-boot-gradle-plugin-1.2.2.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.2.2.RELEASE/4944ee0f06ccfbb7544a0658dfd99439cc13a4a2/spring-boot-loader-tools-1.2.2.RELEASE-sources.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.2.2.RELEASE/a373cbc98ce6ef03f92fc3d3cbb073fd820442fd/spring-boot-loader-tools-1.2.2.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-dependency-tools/1.2.2.RELEASE/3d4270ba0c04a40fded968088a4101eeeab3a0fd/spring-boot-dependency-tools-1.2.2.RELEASE-sources.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-dependency-tools/1.2.2.RELEASE/3e69fb7beb650b27cc41b151033472e96cc98769/spring-boot-dependency-tools-1.2.2.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.5.RELEASE/8dc34b838a8bed284f8b0990cfa0d193bc9f75b5/spring-core-4.1.5.RELEASE-sources.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.5.RELEASE/4f9af02bca3066ea0d5ac450332ca210c5de1957/spring-core-4.1.5.RELEASE.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="D:/tool/gradle-2.14/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/springboot-track-web" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1210,6 +1882,38 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/Application.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/build.gradle" />
+        <option value="$PROJECT_DIR$/springboot-track-web/build.gradle" />
+        <option value="$PROJECT_DIR$/springboot-track-api/build.gradle" />
+        <option value="$PROJECT_DIR$/springboot-track-common/build.gradle" />
+        <option value="$PROJECT_DIR$/springboot-track-api/src/main/java/com/mjoys/springboot/track/api/model/ResultPage.java" />
+        <option value="$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/utils/ResultUtils.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/DaoExceptionOpe.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/TestDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/OperateLogDAOImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/OperateLogDAO.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/TestDao.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/impl/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/TestService.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/AjaxUtils.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/Base58.java" />
+        <option value="$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/exception/InnerException.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/RequestLocalUtils.java" />
+        <option value="$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/SmsUtils.java" />
+        <option value="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/aop/OperationLogAOP.java" />
+        <option value="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/CsrfFilter.java" />
+        <option value="$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/LoginInterceptor.java" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -1266,6 +1970,526 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="req" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-track-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1277,6 +2501,21 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\code\springboot-track\springboot-track-api\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mjoys.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\code\springboot-track\springboot-track-biz\src\main\java\com\mjoys\springboot\track\biz" />
+      <recent name="X:\code\springboot-track\springboot-track-web\src\main\java\com\mjoys\web" />
+      <recent name="X:\code\springboot-track\springboot-track-api\src\main\java\com\mjoys\springboot\track\api\model" />
+      <recent name="X:\code\springboot-track\springboot-track-common\src\main\java\com\mjoys\springboot\track\common" />
+      <recent name="X:\code\springboot-track\springboot-track-web\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1682,44 +2921,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491559882678</updated>
-      <workItem from="1491559883965" duration="71000" />
+      <workItem from="1491559883965" duration="1236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71000" />
+    <option name="totallyTimeSpent" value="1236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1734,26 +2976,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-track-api/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1932">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/resources/account/test.mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1491390980000" expanded="true" signature="348:441" ph="SELECT id, n... test" />
+            <marker date="1491390980000" expanded="true" signature="598:676" ph="INSERT INTO test" />
+            <marker date="1491390980000" expanded="true" signature="785:998" ph="UPDATE ads.t... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-track-web/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-track-biz/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1761,7 +3015,373 @@
     <entry file="file://$PROJECT_DIR$/springboot-track-common/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/constants/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/constants/TimeFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-api/src/main/java/com/mjoys/springboot/track/api/model/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-api/src/main/java/com/mjoys/springboot/track/api/model/ResultPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/utils/ResultUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="92" column="29" lean-forward="false" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/TestDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/OperateLogDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/OperateLogDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/TestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dao/impl/DaoExceptionOpe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/constants/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-721">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dto/BaseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dto/OperateLogDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/dto/TestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/req/ReqAddTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/impl/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/impl/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/AjaxUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="82" column="17" lean-forward="true" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/Base58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-common/src/main/java/com/mjoys/springboot/track/common/exception/InnerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/BlowfishUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/RequestLocalUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="99" column="51" lean-forward="false" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/SmsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="71" column="42" lean-forward="false" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/StringTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/TimeProfileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/RequestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-biz/src/main/java/com/mjoys/springboot/track/biz/utils/SecureUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/aop/LogWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/aop/OperationLogAOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/FreemarkerTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-61">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="56" column="45" lean-forward="false" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/CsrfFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/filter/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987">
+          <caret line="137" column="67" lean-forward="false" selection-start-line="137" selection-start-column="67" selection-end-line="137" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-track-web/src/main/java/com/mjoys/web/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="24" />
           <folding />
         </state>
       </provider>

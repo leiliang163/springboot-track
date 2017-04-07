@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>账号状态变化通知</title>
+<link href="http://yun.duiba.com.cn/assets/styles/email.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div class="main">
+	<h2></h2>
+	<div>
+		<h3>尊敬的 ${linkman}：</h3>
+		您在推啊媒体平台（<a href='http://ssp.tuia.cn'>http://ssp.tuia.cn</a>）的账户被管理员${checkTypeMessage}。<br />
+		请登录推啊媒体平台查看更多信息，谢谢！<br />
+	</div>
+	<br/>
+	<hr>
+    <div>推啊媒体平台</div>
+</div>
+</body>
+
+</html>  
